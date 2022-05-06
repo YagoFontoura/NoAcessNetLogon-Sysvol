@@ -1,0 +1,2 @@
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths /v "\\*\sysvol" /d "RequireMutualAuthentication=0" /t REG_SZ /f
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths /v "\\*\netlogon" /d "RequireMutualAuthentication=0" /t REG_SZ /f
